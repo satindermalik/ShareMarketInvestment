@@ -8,7 +8,7 @@ def SyncTables():
     try:
         conn = psycopg2.connect(
         user="postgres",
-        password="malik",
+        password="xxxx",
         host="localhost",
         port="5432",
         dbname="postgres"
