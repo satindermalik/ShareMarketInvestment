@@ -25,7 +25,7 @@ from PIL import Image
 def get_connection():
     conn = psycopg2.connect(
         user="postgres",
-        password="malik",
+        password="xxxx",
         host="localhost",
         port="5432",
         dbname="postgres"
@@ -123,7 +123,7 @@ if "final_df" in st.session_state:
         try:
             # Database credentials
             DB_USER = "postgres"
-            DB_PASSWORD = 'malik'
+            DB_PASSWORD = 'xxxx'
             DB_PASSWORD_ENCODED = urllib.parse.quote(DB_PASSWORD)
             DB_HOST = "localhost"  # e.g., "localhost" or an IP address
             DB_PORT = "5432"       # Default PostgreSQL port
