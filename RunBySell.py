@@ -8,7 +8,7 @@ def run_buy_sell(number_of_share,values,start_date, run_date, current_date):
     try:
         conn = psycopg2.connect(
             user="postgres",
-            password="malik",
+            password="xxxx",
             host="localhost",
             port="5432",
             dbname="postgres"
